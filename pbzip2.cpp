@@ -51,6 +51,7 @@ static int ChildThreadStackSize = 0; // -1 - don't modify stacksize; 0 - use min
 	#define PTHREAD_STACK_MIN 4096
 #endif
 #endif // USE_STACKSIZE_CUSTOMIZATION
+#define PBZIP_NO_LOADAVG
 static unsigned char Bz2HeaderZero[] = {
 	0x42, 0x5A, 0x68, 0x39, 0x17, 0x72, 0x45, 0x38, 0x50, 0x90, 0x00, 0x00, 0x00, 0x00 };
 static OFF_T InFileSize;
